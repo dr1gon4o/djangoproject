@@ -1,0 +1,46 @@
+# Python bytecode
+*.py[cod]
+__pycache__/
+*.so
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Virtual environments
+venv/
+.venv/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+htmlcov/
+*.cover
+.pytest_cache/
+.tox/
+.nox/
+
+# Git
+*.orig
+*.rej
+
+# Migrations (optional)
+# Uncomment the following lines if you want to ignore migrations
+# */migrations/*.py
+# */migrations/*.pyc
